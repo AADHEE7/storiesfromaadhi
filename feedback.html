@@ -42,6 +42,71 @@
         </style>
     </head>
     <body>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px auto;
+      width: 500px;
+      max-width: 100%; /* Adjust max-width for responsiveness */
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box; /* Include padding in width calculation */
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    .submit-button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Feedback Form</h1>
+  <p>Thank you for your Wonderful Feedback ✨</p>
+  <form action="mailto:aadhiaswa7@gmail.com?subject=Feedback%20Form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5" cols="30" required></textarea><br><br>
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+
+</body>
+</html>
+        
         <ul class="nav" role="navigation">
             <li><a class="navi" href="aadhiweb.html">Home <br>🏠</a></li>
             <li><a class="navi" href="feedback.html">Feedback<br>&#128512;</a></li>
