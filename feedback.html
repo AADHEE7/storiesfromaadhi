@@ -1,6 +1,10 @@
 <html>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <head>
         <style>
+            
             .anc{
                 margin-top: 50px;
             }
@@ -91,27 +95,113 @@
       cursor: pointer;
       border-radius: 5px;
     }
+        
+  
+    /* Base styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px auto;
+      padding: 20px;
+      width: 500px;
+      max-width: 100%; /* Adjust max-width for responsiveness */
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    /* Input and textarea styles */
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+    /* Email input styling */
+    #email {
+      background-color: #f0f0f0;
+    }
+
+    /* Submit button styling */
+    .submit-button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* Placeholder text styling for email field */
+    #email::-webkit-input-placeholder { /* Chrome, Safari, Edge */
+      color: #ccc;
+    }
+
+    #email:-moz-placeholder { /* Firefox */
+      color: #ccc;
+    }
+
+    #email::-moz-placeholder { /* Firefox (newer versions) */
+      color: #ccc;
+    }
+
+    #email:placeholder-shown { /* Opera / Safari 2+ */
+      color: #ccc;
+    }
+  </style>
+</head>
   </style>
 </head>
 <body>
-  <h1>Feedback Form</h1>
-  <p>Thank you for your Wonderful Feedback ✨</p>
-  <form action="mailto:aadhiaswa7@gmail.com?subject=Feedback%20Form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="feedback">Feedback:</label>
-    <textarea id="feedback" name="feedback" rows="5" cols="30" required></textarea><br><br>
-    <input type="submit" value="Submit" class="submit-button">
-  </form>
+  
 
-</body>
-</html>
+
         
         <ul class="nav" role="navigation">
             <li><a class="navi" href="aadhiweb.html">Home <br>🏠</a></li>
             <li><a class="navi" href="feedback.html">Feedback<br>&#128512;</a></li>
             <li><a class="navi" href="about.html">About<br>&#129300;</a></li>
         </ul><br>
+    
+
+
+
+
+  <h1>Feedback Form</h1>
+  <p>Thank you for your feedback!</p>
+  <form action="mailto:aadhiaswa7@gmail.com?subject=Feedback%20Form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email (Optional):</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5" cols="30" required></textarea><br><br>
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+
+
+
+
+` 
+    
         <h4 class="anc">Reach me on Insta&#128640 @aadheesh_7</h4> 
         <a class="anc" href="https://www.instagram.com/aadheesh_7">Also from here..</a>
         <h4>Reach me on Mail</h4>
